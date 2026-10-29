@@ -15,7 +15,7 @@ int main(int argc, char **argv)
         std::cerr << "Cannot open " << device << ":" << std::strerror(errno) << "\n";
         return 1;
     }
-    std::cout << "Opend : " << device << "\n";
+    std::cout << "Opened : " << device << "\n";
     close(fd);
 
     return 0;
